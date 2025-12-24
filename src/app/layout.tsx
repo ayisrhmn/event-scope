@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description:
     "The ultimate playground to design, simulate, and validate your analytics events. Ensure data quality with our Schema Builder and Event Simulator.",
   applicationName: "EventScope",
-  metadataBase: new URL("https://event-scope.vercel.app"),
+  metadataBase: new URL("https://event-scope-labs.vercel.app"),
   authors: [{ name: "Muhammad Fariz Rahman", url: "https://ayisrhmn.vercel.app" }],
   keywords: [
     "EventScope",
@@ -49,11 +49,11 @@ export const metadata: Metadata = {
     title: "EventScope | Master Your Event Tracking",
     description:
       "The ultimate playground to design, simulate, and validate your analytics events. Ensure data quality with our Schema Builder and Event Simulator.",
-    url: "https://event-scope.vercel.app",
+    url: "https://event-scope-labs.vercel.app",
     siteName: "EventScope",
     images: [
       {
-        url: "https://event-scope.vercel.app/og-image.png",
+        url: "https://event-scope-labs.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "EventScope - Event Tracking Playground",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "EventScope | Master Your Event Tracking",
     description:
       "The ultimate playground to design, simulate, and validate your analytics events. Ensure data quality with our Schema Builder and Event Simulator.",
-    images: ["https://event-scope.vercel.app/og-image.png"],
+    images: ["https://event-scope-labs.vercel.app/og-image.png"],
     creator: "@ayisrhmn",
   },
   robots: {
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://event-scope.vercel.app",
+    canonical: "https://event-scope-labs.vercel.app",
   },
   other: {
     "google-site-verification": "QXVlq8lAnlntE6dV6T9lXJODwjSB5c6pxMi4pTQVsDw",
@@ -99,21 +99,21 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://event-scope.vercel.app/#website",
+        "@id": "https://event-scope-labs.vercel.app/#website",
         name: "EventScope",
-        url: "https://event-scope.vercel.app",
+        url: "https://event-scope-labs.vercel.app",
         description: "Master Your Event Tracking with Precision",
         potentialAction: {
           "@type": "SearchAction",
-          target: "https://event-scope.vercel.app/?q={search_term_string}",
+          target: "https://event-scope-labs.vercel.app/?q={search_term_string}",
           "query-input": "required name=search_term_string",
         },
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "https://event-scope.vercel.app/#software",
+        "@id": "https://event-scope-labs.vercel.app/#software",
         name: "EventScope",
-        url: "https://event-scope.vercel.app",
+        url: "https://event-scope-labs.vercel.app",
         applicationCategory: "DeveloperApplication",
         operatingSystem: "Any",
         description:
@@ -131,12 +131,12 @@ export default function RootLayout({
       },
       {
         "@type": "Organization",
-        "@id": "https://event-scope.vercel.app/#organization",
+        "@id": "https://event-scope-labs.vercel.app/#organization",
         name: "EventScope",
-        url: "https://event-scope.vercel.app",
+        url: "https://event-scope-labs.vercel.app",
         logo: {
           "@type": "ImageObject",
-          url: "https://event-scope.vercel.app/og-image.png",
+          url: "https://event-scope-labs.vercel.app/og-image.png",
         },
         sameAs: [
           "https://github.com/ayisrhmn",
